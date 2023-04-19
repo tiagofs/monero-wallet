@@ -1,0 +1,46 @@
+.dashboard-container {
+    overflow-wrap: anywhere;
+    text-align: start;
+}
+
+.mainaddress-header {
+    margin-top: 0;
+}
+
+.subaddresses-container {
+    position: relative;
+
+    button {
+        position: absolute;
+        left: 90%;
+    }
+}
+
+
+
+details {
+    margin-top: 30px;
+
+    summary {
+        font-size: 1.17em;
+        font-weight: bold;
+    }
+
+    .subaddresses-contents-container {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+}
+
+.subaddress-label-container {
+    margin-bottom: 4px;
+}
+
+.subaddress-label-edit-icon {
+    margin-left: 10px;
+}
+
+.subaddress-search-input {
+    margin-top: 15px;
+    margin-left: 15px;
+}
