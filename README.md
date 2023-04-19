@@ -1,5 +1,12 @@
 # Monero Wallet
 
+A Monero wallet has one primary address, and it can generate multiple additional “subaddresses”.\
+All funds sent to any of them end in the same wallet.\
+This is useful when users share the wallet address publicly in multiple places and don’t want people to realise it’s all the same wallet.\
+Another use case is merchants that accept Monero.\
+They can generate a new subaddress for each customer to easily match payments with orders.
+
+
 ### Features:
 - Generate new subaddresses.
 - Label them.
